@@ -13,12 +13,14 @@ public class SnakeAndLadder {
         int option= (int)(Math.random()*10)%3;
 
         if(option==IF_LADDER){
+            System.out.println("Ladder!!");
             currentposition+=dice;
-            System.out.println("current player position: "+currentposition);
+
         }
         else if(option==IF_SNAKE){
-            currentposition=-dice;
-            System.out.println("current player position: "+currentposition);
+            System.out.println("snake!!");
+            currentposition-=dice;
+
 
         }else {
             System.out.println("N0 play");
