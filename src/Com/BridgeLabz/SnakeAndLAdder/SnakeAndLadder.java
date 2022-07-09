@@ -29,9 +29,7 @@ package Com.BridgeLabz.SnakeAndLAdder;
             if(currentposition<START_POSITION){
                 currentposition=START_POSITION;
             }
-            if (currentposition>100){
-                currentposition=100;
-            }
+            
             System.out.println("currentposition: "+currentposition);
         }
 
